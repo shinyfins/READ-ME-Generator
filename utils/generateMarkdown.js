@@ -20,16 +20,37 @@
 // module.exports = generateMarkdown;
 
 function generateMarkdown(data) {
-  return `# ${data.title}
-  
-  ##Licensing:
-  [![license]
+  return `# ${data.name}
 
 ## Table of Content
 -[Description](#description)
 
 ## Description:
 ${data.description}
+
+## Install
+${data.install}
+
+## Usage 
+${data.usage}
+
+## Contribution 
+${data.contribution}
+
+## Instruct
+${data.instruct}
+
+## License
+${data.license}
+
+-Questions-
+
+## Github
+-Github: [${data.github}] (https://github.com/${data.github})
+
+## Email
+${data.email}
+
 ]`;
 }
 
