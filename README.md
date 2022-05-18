@@ -1,4 +1,8 @@
+This project is intended for the user to generate a readme through a series of prompts. The system will then capture the users inputs and save them down onto the read me. 
+
+
 # dinero
+
 
 ## Table of Content
 -[Description](#description)
